@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cloud & Server Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">KIT_STUDENT.log</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-badge">Server & Cloud Engineer Roadmap</div>
+            <h1>안녕하세요, 이진철입니다.</h1>
+            <p>국립금오공과대학교에서 컴퓨터공학을 전공하며 안정적이고 확장 가능한 인프라를 설계하는 서버/클라우드 엔지니어를 꿈꾸고 있습니다.</p>
+            <a href="#projects" class="btn">프로젝트 보기</a>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div>
+                    <p>데이터의 흐름과 시스템의 안정성에 매력을 느껴 백엔드와 인프라 구축을 공부하고 있습니다. 단순한 기능 구현을 넘어, 효율적인 리소스 관리와 자동화 프로세스에 관심이 많습니다.</p>
+                    <br>
+                    <p>현재 학교에 개설된 수업 과정을 통해 운영체제, 네트워크의 기초를 다지고 있으며, 개인적으로 클라우드 아키텍처와 컨테이너 기술을 학습 중입니다.</p>
+                </div>
+                <div>
+                    <h3>Main Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linux (Ubuntu)</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS (EC2, S3)</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Nginx</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="section-title">Project Experience</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img">Nginx Web Server</div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>Linux</span> <span>Nginx</span> <span>AWS</span>
+                        </div>
+                        <h3>Reverse Proxy Server</h3>
+                        <p>Nginx를 활용하여 트래픽 분산을 위한 로드 밸런싱 환경을 구축하고, SSL 인증서를 적용하여 보안 웹 서비스를 운영한 프로젝트입니다.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">Docker Containerization</div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>Docker</span> <span>MySQL</span> <span>Node.js</span>
+                        </div>
+                        <h3>Container-based App</h3>
+                        <p>애플리케이션과 DB를 컨테이너화하여 어디서나 동일한 환경에서 구동될 수 있도록 환경을 격리하고 배포 프로세스를 간소화했습니다.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">Automation Script</div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>Python</span> <span>Bash Shell</span>
+                        </div>
+                        <h3>Backup Automation</h3>
+                        <p>리눅스 서버의 로그 및 DB 데이터를 주기적으로 백업하고, 특정 용량 초과 시 오래된 파일을 삭제하는 자동화 스크립트를 제작했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>새로운 기술적 도전과 협업은 언제나 환영합니다.</p>
+                <p>cherrycprhdi@naver.com</p>
+                <a href="mailto:cherrycprhdi@naver.com" class="btn">메일 보내기</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KIT Computer Engineering. Built with Pure JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
